@@ -30,11 +30,11 @@ namespace application_01
                 UseDefaultCredentials = false,
                 Credentials = new NetworkCredential()
                 {
-                    UserName = "ismail47el@gmail.com",
-                    Password = "gmzmhfzvplskohfr"
+                    UserName = "Your_email@gmail.com",
+                    Password = "Your_password"
                 }
             };
-            MailAddress FromEmail = new MailAddress("ismail47el@gmail.com", "DROPI bb");
+            MailAddress FromEmail = new MailAddress("Your_email@gmail.com", "userename");
             MailAddress ToEmail = new MailAddress(textBox1.Text,"Someome");
             MailMessage Message = new MailMessage()
             {
